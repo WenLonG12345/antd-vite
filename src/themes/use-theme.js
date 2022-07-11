@@ -16,5 +16,5 @@ export const useTheme = () => {
   }, [darkMode]);
 
   return [darkMode, setDarkMode];
-  
+
 };

@@ -7,8 +7,6 @@ const LightTheme = lazy(() => import("./light"));
 export const ThemeProvider = ({ children }) => {
   const [darkMode] = useTheme();
 
-  console.log({darkMode});
-
   return (
     <>
       <Suspense fallback={<span />}>
